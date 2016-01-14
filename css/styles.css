@@ -2,6 +2,10 @@
   display: none;
 }
 
+body {
+  font-family: helvetica;
+}
+
 #formGreet {
   display: none;
   margin-bottom: 20px;
@@ -9,7 +13,6 @@
 
 h3 {
   font-size: 20px;
-  font-family: helvetica;
   cursor: pointer;
 }
 
@@ -46,4 +49,8 @@ p.spanpic {
 
 #catFloat {
   float: left;
+}
+
+a {
+  font-size: 20px;
 }
