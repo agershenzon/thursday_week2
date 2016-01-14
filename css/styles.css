@@ -1,6 +1,7 @@
 .termInfo {
   display: none;
 }
+
 #formGreet {
   display: none;
   margin-bottom: 20px;
@@ -23,4 +24,22 @@ img {
 .btn {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.textColor {
+  color: #ab2e34;
+}
+
+.textSize {
+  font-size: 50px;
+}
+
+.textStyle {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+p.spanpic {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
