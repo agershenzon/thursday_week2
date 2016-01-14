@@ -55,4 +55,12 @@ $(document).ready(function() {
     $("span.active").siblings().hide();
     $("span.active").show();
   });
+
+  $("#loopbtn").click(function() {
+    var looping = ['I', 'Love', 'Loops!']
+    looping.forEach(function(looping) {
+      alert(looping);
+    });
+  });
+
 });
