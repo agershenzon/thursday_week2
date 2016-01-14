@@ -63,4 +63,13 @@ $(document).ready(function() {
     });
   });
 
+  $("form#form1").submit(function(event) {
+
+    var nameInput = $("input#person").val();
+    $(".person1").text(nameInput);
+
+    $("#formGreet").show();
+    event.preventDefault();
+  });
+//
 });
